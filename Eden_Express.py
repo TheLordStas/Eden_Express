@@ -11,9 +11,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 load_dotenv()
 # --- НАСТРОЙКИ ---
-BOT_TOKEN=8286072312:AAFbVXSvxIQZv8NQY37ahXB5YW3GBfJR7nQ
+BOT_TOKEN="8286072312:AAFbVXSvxIQZv8NQY37ahXB5YW3GBfJR7nQ"
 OPERATOR_USER_ID=7695561909
-OPERATOR_USERNAME=@user1461474
+OPERATOR_USERNAME="@user1461474"
 
 # Логирование
 logging.basicConfig(level=logging.INFO)
