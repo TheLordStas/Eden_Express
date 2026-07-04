@@ -13,9 +13,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 load_dotenv()
 # --- НАСТРОЙКИ ---
-# BOT_TOKEN = os.getenv("BOT_TOKEN")
-# OPERATOR_USER_ID = int(os.getenv("OPERATOR_USER_ID"))
-# OPERATOR_USERNAME = os.getenv("OPERATOR_USERNAME")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OPERATOR_USER_ID = int(os.getenv("OPERATOR_USER_ID"))
+OPERATOR_USERNAME = os.getenv("OPERATOR_USERNAME")
 
 # Логирование
 logging.basicConfig(level=logging.INFO)
